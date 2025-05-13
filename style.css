@@ -5,6 +5,7 @@
   user-select: none; /* Prevent text selection */
   -webkit-user-select: none;
   -moz-user-select: none;
+  transform: none
 }
 
 body {
