@@ -8,11 +8,6 @@
   transform: none
 }
 
-
-body::-webkit-scrollbar {
-  display: none;
-  }
-
 body {
   -webkit-text-size-adjust: 100%;
 }
@@ -38,7 +33,7 @@ input {
   border: none;
   padding: 5px;
   z-index: 1000;
-  transform: scale(0.999);
+  transform: scale(0.999) !important;
 }
 
 input:focus {
