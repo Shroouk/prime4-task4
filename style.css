@@ -8,6 +8,11 @@
   transform: none
 }
 
+
+body::-webkit-scrollbar {
+  display: none;
+  }
+
 body {
   -webkit-text-size-adjust: 100%;
 }
@@ -20,7 +25,7 @@ body {
 .ui-textinput1 {
   background-color: transparent;
   text-align: start;
-  font-size: 24px;
+  font-size: 26px;
 }
 
 .ui-textinput3::before {
@@ -28,6 +33,7 @@ body {
   content: "Email";
 }
 input {
+  color: #000;
   font-size: 24px;
   border: none;
   padding: 5px;
