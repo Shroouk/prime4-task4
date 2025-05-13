@@ -10,7 +10,6 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="authoring-tool" content="Adobe_Animate_CC">
 <title>index</title>
 <!-- write your code here -->
@@ -23,7 +22,7 @@
   }
 </style>
 <script src="libs/1.0.0/createjs.min.js"></script>
-<script src="index.js?1747139653859"></script>
+<script src="index.js?1747140332843"></script>
 <script>
 // Global Scripts
 	window.addEventListener("DOMContentLoaded", function () {
@@ -75,9 +74,10 @@ window.addEventListener('focus', function() {
 			createjs.Sound.volume = 1;	
 			}
 });
-var meta = document.createElement('meta');
+const meta = document.createElement('meta');
 meta.name = 'viewport';
-meta.content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no';
+meta.content = "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no";
+document.head.appendChild(meta);
 // Append the meta tag to the document head
 //document.getElementsByTagName('head')[0].appendChild(meta);
  var styleLink = document.createElement("link");
@@ -310,6 +310,6 @@ function handleComplete(evt,comp) {
 		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1024px; height:567px; position: absolute; left: 0px; top: 0px; display: none;">
 		</div>
 	</div>
-    <div id='_preload_div_' style='position:absolute; top:0; left:0; display: inline-block; height:567px; width: 1024px; text-align: center;'>	<span style='display: inline-block; height: 100%; vertical-align: middle;'></span>	<img src=images/_preloader.gif?1747139653860 style='vertical-align: middle; max-height: 100%'/></div>
+    <div id='_preload_div_' style='position:absolute; top:0; left:0; display: inline-block; height:567px; width: 1024px; text-align: center;'>	<span style='display: inline-block; height: 100%; vertical-align: middle;'></span>	<img src=images/_preloader.gif?1747140332844 style='vertical-align: middle; max-height: 100%'/></div>
 </body>
 </html>
